@@ -1,0 +1,14 @@
+.service-box i{
+    color: var(--main-white);
+}
+.ico-circle img{
+    width: 70px;
+    height: 70px;
+}
+.ico-circle{
+    border-radius: 50%;
+    border:8px solid var(--main-color);
+    width: 130px;
+    height: 130px;
+    background-color: var(--main-white);
+}

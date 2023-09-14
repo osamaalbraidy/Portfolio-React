@@ -1,0 +1,90 @@
+.hero {
+    height: 100vh;
+    position: relative;
+    background: url("../../Data/imgs/Landing.jpg") no-repeat center center/cover;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .hero-content {
+    text-align: center;
+    position: absolute;
+}
+
+.hero .overlay-itro {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.hero .hero-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+    .hero .hero-title {
+        font-size: 4.5rem;
+    }
+}
+
+.hero .hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .hero .hero-subtitle {
+        font-size: 2.5rem;
+    }
+}
+
+.hero .text-slider-items {
+    display: none;
+}
+
+.hero-single {
+    height: 350px;
+}
+
+.hero-single .hero-content {
+    margin-top: 30px;
+}
+
+.hero-single .hero-title {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+    .hero-single .hero-title {
+        font-size: 3.5rem;
+    }
+}
+
+.hero-single .breadcrumb {
+    background-color: transparent;
+    color: var(--main-color);
+}
+
+.hero-single .breadcrumb .breadcrumb-item:before {
+    color: #cde1f8;
+}
+
+.hero-single .breadcrumb .breadcrumb-item.active {
+    color: #cde1f8;
+}
+
+.hero-single .breadcrumb a {
+    color: #fff;
+}

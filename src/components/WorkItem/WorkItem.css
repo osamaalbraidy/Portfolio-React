@@ -1,0 +1,50 @@
+.work-box {
+    margin-bottom: 3rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #fff;
+}
+
+.work-box:hover img {
+    transform: scale(1.3);
+}
+
+.work-img {
+    display: block;
+    overflow: hidden;
+}
+
+.work-img img {
+    transition: all 1s;
+}
+
+.work-content {
+    padding: 2rem 3% 1rem 4%;
+}
+
+.work-content .w-more {
+    color: #4e4e4e;
+    font-size: 0.8rem;
+}
+
+.work-content .w-more .w-ctegory {
+    color: var(--main-color);
+}
+
+.work-content .w-like {
+    font-size: 2.5rem;
+    color: var(--main-color);
+    float: right;
+}
+
+.work-content .w-like a {
+    color: var(--main-color);
+}
+
+.work-content .w-like .num-like {
+    font-size: 0.7rem;
+}
+
+.w-title {
+    font-size: 1.2rem;
+}

@@ -1,0 +1,27 @@
+.socials li a{
+    color: var(--main-white);
+    transition: 0.5s;
+}
+.socials li a .linkIcon{
+    background-color: var(--main-color);
+    padding: 15px 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px var(--main-white);
+    transition: 0.5s;
+}
+.socials li a svg{
+    height: 25px;
+    width: 25px;
+}
+.socials li a:hover{
+    color: var(--secondary-black);
+}
+.socials li a .linkIcon:hover{
+    box-shadow: 0 0 0 4px var(--main-color);
+    background-color: var(--secondary-white);
+}
+.socials ul{
+    display: flex;
+    float: left;
+    gap: 25px;
+}

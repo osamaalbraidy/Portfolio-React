@@ -1,0 +1,25 @@
+ul{
+    list-style: none;
+}
+.list-ico li img{
+    height: 20px;
+    width: 20px;
+}
+.list-ico li{
+    display: flex;
+    gap: 10px;
+}
+.list-ico li p{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: var(--main-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.list-ico li:hover p,
+.list-ico li p:hover{
+    box-shadow: 0 0 0 4px var(--main-color);
+}
