@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.aca056ea.css",
-    "main.js": "/Portfolio-React/static/js/main.d77ce224.js",
+    "main.js": "/Portfolio-React/static/js/main.58f1d5d1.js",
     "static/media/YellowMoon.png": "/Portfolio-React/static/media/YellowMoon.0e75f11e763e688a669e.png",
     "static/media/Modus.png": "/Portfolio-React/static/media/Modus.48ce5906314d227fd528.png",
     "static/media/Landing.jpg": "/Portfolio-React/static/media/Landing.98c8dd37410a77a6f76f.jpg",
@@ -30,10 +30,10 @@
     "static/media/check-lg.svg": "/Portfolio-React/static/media/check-lg.6fe048a4880199518d7f8eb12152ed04.svg",
     "static/media/phone.svg": "/Portfolio-React/static/media/phone.3b280b33e14c15bb95d3726e27b9cddf.svg",
     "main.aca056ea.css.map": "/Portfolio-React/static/css/main.aca056ea.css.map",
-    "main.d77ce224.js.map": "/Portfolio-React/static/js/main.d77ce224.js.map"
+    "main.58f1d5d1.js.map": "/Portfolio-React/static/js/main.58f1d5d1.js.map"
   },
   "entrypoints": [
     "static/css/main.aca056ea.css",
-    "static/js/main.d77ce224.js"
+    "static/js/main.58f1d5d1.js"
   ]
 }
