@@ -1,12 +1,17 @@
 .contact-mf input,
 .contact-mf input::placeholder,
+.contact-mf input:focus,
 .contact-mf textarea,
-.contact-mf textarea::placeholder {
+.contact-mf textarea::placeholder,
+.contact-mf textarea:focus {
     background-color: var(--main-black);
     color: var(--secondary-white);
 }
-
-
+.contact-mf input:focus,
+.contact-mf textarea:focus{
+    box-shadow: 0 0 0 1px var(--main-color);
+    border-color: var(--main-color);
+}
 .contact-mf .box-shadow-full {
     background-color: var(--main-black);
     color: var(--secondary-white);
