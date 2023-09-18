@@ -1,6 +1,5 @@
 .socials li a{
     color: var(--main-white);
-    transition: 0.5s;
 }
 .socials li a .linkIcon{
     background-color: var(--main-color);

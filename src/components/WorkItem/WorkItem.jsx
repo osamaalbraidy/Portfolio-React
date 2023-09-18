@@ -3,9 +3,9 @@ import "./WorkItem.css"
 const WorkItem = ({ title, imgSrc, link, category, date }) => (
     <div className="col-md-4">
         <div className="work-box">
-            <a href={link} className="portfolio-lightbox">
+            <a href={link} className="portfolio-lightbox" target="_blank" rel="noopener noreferrer">
                 <div className="work-img">
-                    <img src={imgSrc} alt="" className="img-fluid" decoding="async" />
+                    <img src={imgSrc} alt="" className="img-fluid"/>
                 </div>
             </a>
             <div className="work-content">

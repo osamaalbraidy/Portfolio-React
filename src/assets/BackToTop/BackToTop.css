@@ -12,6 +12,11 @@
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     z-index: 999;
+    transition: 0.5s;
+}
+.back-to-top-button:hover{
+    background-color: var(--main-black);
+    box-shadow: 0 0 0 5px var(--secondary-white);
 }
 .back-to-top-button svg {
     scale: 1.5;

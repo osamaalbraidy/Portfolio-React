@@ -1,7 +1,41 @@
+import { useReducer } from 'react';
 import './ContactForm.css'
 
-const ContactForm = () => (
-    <form id="email-form" className="email-form">
+const ContactForm = () => {
+    const initState = {
+        name: "",
+        email: "",
+        subject: "",
+        message: ""
+    }
+    const reducer = (state, action) =>{
+        switch(action.type){
+            case "input":
+                return {...state, [action.field] : action.value};
+            default:
+                return state;
+        }
+    }
+
+    const [state, dispatch] = useReducer(reducer, initState)
+
+    const handleChange = (e) =>{
+        dispatch(
+            {
+                type : 'input',
+                field: e.target.name,
+                value: e.target.value
+            }
+        )
+    }
+
+    const handleSubmit = (e) =>{
+        e.preventDefault()
+        console.log(state)
+    }
+
+    return(
+        <form id="email-form" className="email-form" onSubmit={handleSubmit}>
         <div className="row">
             <div className="col-md-12 mb-3">
                 <div className="form-group">
@@ -12,6 +46,8 @@ const ContactForm = () => (
                         id="name"
                         placeholder="Your Name"
                         required
+                        onChange={handleChange}
+                        value={state.name}
                     />
                 </div>
             </div>
@@ -24,6 +60,8 @@ const ContactForm = () => (
                         id="email"
                         placeholder="Your Email"
                         required
+                        onChange={handleChange}
+                        value={state.email}
                     />
                 </div>
             </div>
@@ -36,6 +74,8 @@ const ContactForm = () => (
                         id="subject"
                         placeholder="Subject"
                         required
+                        onChange={handleChange}
+                        value={state.subject}
                     />
                 </div>
             </div>
@@ -48,6 +88,8 @@ const ContactForm = () => (
                         rows="5"
                         placeholder="Message"
                         required
+                        onChange={handleChange}
+                        value={state.message}
                     ></textarea>
                 </div>
             </div>
@@ -60,6 +102,7 @@ const ContactForm = () => (
             </div>
         </div>
     </form>
-);
+    )
+};
 
 export default ContactForm;

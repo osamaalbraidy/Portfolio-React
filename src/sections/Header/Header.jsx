@@ -1,65 +1,49 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import "./Header.css";
-import { Link } from 'react-scroll'
+import { HeaderLink } from "../../components";
 
 const Header = () => {
     const [menuActive, setMenuActive] = useState(false);
     const [scrollY, setScrollY] = useState(0);
 
+    const handleScroll = useCallback(() => {
+        setScrollY(window.scrollY);
+    }, []);
+
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
+
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, []);
+    }, [handleScroll]);
 
-    const handleScroll = () => {
-        setScrollY(window.scrollY);
+    const turnOff = () => {
+        if (menuActive) setMenuActive(false);
     };
 
-    const turnOff = () =>{
-        if(menuActive) setMenuActive(false)
-    }
+    const headerClassName = scrollY > 200 ? "header black-bg" : "header";
 
     return (
-        <div className="header">
+        <div className={headerClassName}>
             <div className="container navbar">
                 <h1 className="logo">
                     <a href="/">Osama AL Braidy</a>
                 </h1>
                 <span className="openList-button" onClick={() => setMenuActive(!menuActive)}>
-                    <span className={`${menuActive ? "none" : ""}`}></span>
-                    <span className={`${menuActive ? "none" : ""}`}></span>
-                    <span className={`${menuActive ? "none" : ""}`}></span>
-                    <h1 className={`${menuActive ? "open" : "close"}`}>x</h1>
+                    {Array.from({ length: 3 }).map((_, index) => (
+                        <span key={index} className={menuActive ? "none" : ""}></span>
+                    ))}
+                    <h1 className={menuActive ? "open" : "close"}>x</h1>
                 </span>
-                <ul className={`links ${menuActive ? "active" : ""}`}>
-                    <li>
-                        <Link to='hero' onClick={turnOff} activeClass="active-link" spy={true} smooth={true} offset={0} duration={300} >home</Link>
-                    </li>
-                    <li>
-                        <Link to='about' onClick={turnOff} activeClass="active-link" spy={true} smooth={true} offset={0} duration={300}>about</Link>
-                    </li>
-                    <li>
-                        <Link to='services' onClick={turnOff} activeClass="active-link" spy={true} smooth={true} offset={0} duration={300}>services</Link>
-                    </li>
-                    <li>
-                        <Link to='work' onClick={turnOff} activeClass="active-link" spy={true} smooth={true} offset={0} duration={300}>work</Link>
-                    </li>
-                    <li>
-                        <Link to='contact' onClick={turnOff} activeClass="active-link" spy={true} smooth={true} offset={0} duration={300}>contact</Link>
-                    </li>
+                <ul className={`links ${menuActive ? "active" : "notActive"}`}>
+                    <HeaderLink to='hero' onClick={turnOff}>home</HeaderLink>
+                    <HeaderLink to='about' onClick={turnOff}>about</HeaderLink>
+                    <HeaderLink to='services' onClick={turnOff}>services</HeaderLink>
+                    <HeaderLink to='work' onClick={turnOff}>work</HeaderLink>
+                    <HeaderLink to='contact' onClick={turnOff}>contact</HeaderLink>
                 </ul>
             </div>
-            {scrollY > 200 && (
-                <style jsx>
-                    {`
-                        .header {
-                            background-color: black;
-                        }
-                    `}
-                </style>
-            )}
         </div>
     );
 };
