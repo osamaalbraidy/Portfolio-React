@@ -1,7 +1,7 @@
 import './ContactInfo.css'
-import location from '../../Data/imgs/ContactInfo/geo-alt.svg'
-import phone from '../../Data/imgs/ContactInfo/phone.svg'
-import email from '../../Data/imgs/ContactInfo/envelope.svg'
+import location from '../../assets/ContactInfo/geo-alt.svg'
+import phone from '../../assets/ContactInfo/phone.svg'
+import email from '../../assets/ContactInfo/envelope.svg'
 
 const ContactInfo = () => (
     <div className="more-info">

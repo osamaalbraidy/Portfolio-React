@@ -1,6 +1,6 @@
 import './App.css';
 import { Header, Container, Footer } from './sections';
-import { Home, About, Service, Work, Contact, BackToTop } from './assets'
+import { Home, About, Service, Work, Contact, BackToTop } from './components'
 
 function App() {
   return (

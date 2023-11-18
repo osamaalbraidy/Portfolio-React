@@ -6,7 +6,7 @@ const Home = () => {
 
   useEffect(() => {
     const typedInstance = new Typed('.typed', {
-      strings: ['Software Developer', 'Full-Stack Developer'],
+      strings: ['Software Developer', 'Full-Stack Developer', 'Mobile Developer'],
       typeSpeed: 100,
       loop: true,
       startDelay: 500,

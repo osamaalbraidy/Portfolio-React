@@ -1,10 +1,10 @@
 import './Work.css'
 import { WorkItem } from '../../components';
-import Leon from '../../Data/imgs/Works/Leon.png'
-import YellowMoon from '../../Data/imgs/Works/YellowMoon.png'
-import Modus from '../../Data/imgs/Works/Modus.png'
-import Wooster from '../../Data/imgs/Works/Wooster.png'
-import ITStore from '../../Data/imgs/Works/ITStore.png'
+import Leon from '../../assets/Works/Leon.png'
+import YellowMoon from '../../assets/Works/YellowMoon.png'
+import Modus from '../../assets/Works/Modus.png'
+import Wooster from '../../assets/Works/Wooster.png'
+import ITStore from '../../assets/Works/ITStore.png'
 
 const PortfolioSection = () => {
     const portfolioItems = [

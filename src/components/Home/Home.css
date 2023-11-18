@@ -1,7 +1,7 @@
 .hero {
     height: 100vh;
     position: relative;
-    background: url("../../Data/imgs/Landing.jpg") no-repeat center center/cover;
+    background: url("../../assets/Landing.jpg") no-repeat center center/cover;
     color: #fff;
     width: 100%;
     display: flex;

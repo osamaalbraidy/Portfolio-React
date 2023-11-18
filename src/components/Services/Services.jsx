@@ -1,9 +1,9 @@
 import './Services.css'
 import ServiceItem from '../../components/ServiceItem/ServiceItem';
-import briefcase from '../../Data/imgs/Services/briefcase.svg'
-import CardChecklist from '../../Data/imgs/Services/card-checklist.svg'
-import binoculars from '../../Data/imgs/Services/binoculars.svg'
-import CounterSection from '../CounterSection/CounterSection';
+import briefcase from '../../assets/Services/briefcase.svg'
+import CardChecklist from '../../assets/Services/card-checklist.svg'
+import binoculars from '../../assets/Services/binoculars.svg'
+import CounterSection from '../../components/CounterSection/CounterSection';
 
 const Services = () => {
     const servicesData = [
