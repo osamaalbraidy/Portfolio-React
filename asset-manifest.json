@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/client/static/css/main.bfc078af.css",
-    "main.js": "/client/static/js/main.5e0dd653.js",
-    "static/media/Landing.jpg": "/client/static/media/Landing.98c8dd37410a77a6f76f.jpg",
-    "static/media/OsamaAlBraidy.jpg": "/client/static/media/OsamaAlBraidy.aa61df80514504bf958f.jpg",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/client/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/client/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/client/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/client/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/client/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/binoculars.svg": "/client/static/media/binoculars.9adca3121aae1467209b9555919017ec.svg",
-    "static/media/journal-richtext.svg": "/client/static/media/journal-richtext.49f3394acdb1b938cba542cfcabca9a0.svg",
-    "static/media/card-checklist.svg": "/client/static/media/card-checklist.8cf9b949372f01573663151056fda808.svg",
-    "static/media/briefcase.svg": "/client/static/media/briefcase.3999df401af987e7a321aabd0257903a.svg",
-    "static/media/geo-alt.svg": "/client/static/media/geo-alt.aa0c8e24080229518a4e571c63cac341.svg",
-    "index.html": "/client/index.html",
-    "static/media/envelope.svg": "/client/static/media/envelope.ceed57e9483391a79813f313693eb103.svg",
-    "static/media/check-lg.svg": "/client/static/media/check-lg.6fe048a4880199518d7f8eb12152ed04.svg",
-    "static/media/phone.svg": "/client/static/media/phone.3b280b33e14c15bb95d3726e27b9cddf.svg",
-    "main.bfc078af.css.map": "/client/static/css/main.bfc078af.css.map",
-    "main.5e0dd653.js.map": "/client/static/js/main.5e0dd653.js.map"
+    "main.css": "/static/css/main.a5ac4756.css",
+    "main.js": "/static/js/main.ec1f6eb2.js",
+    "static/media/Landing.jpg": "/static/media/Landing.98c8dd37410a77a6f76f.jpg",
+    "static/media/OsamaAlBraidy.jpg": "/static/media/OsamaAlBraidy.aa61df80514504bf958f.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/binoculars.svg": "/static/media/binoculars.9adca3121aae1467209b9555919017ec.svg",
+    "static/media/journal-richtext.svg": "/static/media/journal-richtext.49f3394acdb1b938cba542cfcabca9a0.svg",
+    "static/media/card-checklist.svg": "/static/media/card-checklist.8cf9b949372f01573663151056fda808.svg",
+    "static/media/briefcase.svg": "/static/media/briefcase.3999df401af987e7a321aabd0257903a.svg",
+    "static/media/geo-alt.svg": "/static/media/geo-alt.aa0c8e24080229518a4e571c63cac341.svg",
+    "index.html": "/index.html",
+    "static/media/envelope.svg": "/static/media/envelope.ceed57e9483391a79813f313693eb103.svg",
+    "static/media/check-lg.svg": "/static/media/check-lg.6fe048a4880199518d7f8eb12152ed04.svg",
+    "static/media/phone.svg": "/static/media/phone.3b280b33e14c15bb95d3726e27b9cddf.svg",
+    "main.a5ac4756.css.map": "/static/css/main.a5ac4756.css.map",
+    "main.ec1f6eb2.js.map": "/static/js/main.ec1f6eb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfc078af.css",
-    "static/js/main.5e0dd653.js"
+    "static/css/main.a5ac4756.css",
+    "static/js/main.ec1f6eb2.js"
   ]
 }
