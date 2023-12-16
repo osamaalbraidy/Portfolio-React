@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a5ac4756.css",
-    "main.js": "/static/js/main.62498b41.js",
+    "main.js": "/static/js/main.6b9437cd.js",
     "static/media/Landing.jpg": "/static/media/Landing.98c8dd37410a77a6f76f.jpg",
     "static/media/OsamaAlBraidy.jpg": "/static/media/OsamaAlBraidy.aa61df80514504bf958f.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -19,10 +19,10 @@
     "static/media/check-lg.svg": "/static/media/check-lg.6fe048a4880199518d7f8eb12152ed04.svg",
     "static/media/phone.svg": "/static/media/phone.3b280b33e14c15bb95d3726e27b9cddf.svg",
     "main.a5ac4756.css.map": "/static/css/main.a5ac4756.css.map",
-    "main.62498b41.js.map": "/static/js/main.62498b41.js.map"
+    "main.6b9437cd.js.map": "/static/js/main.6b9437cd.js.map"
   },
   "entrypoints": [
     "static/css/main.a5ac4756.css",
-    "static/js/main.62498b41.js"
+    "static/js/main.6b9437cd.js"
   ]
 }
