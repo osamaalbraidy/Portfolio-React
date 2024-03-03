@@ -1,6 +1,7 @@
 import js from '../../assets/ProgrammingSkills/java-script.png';
 import java from '../../assets/ProgrammingSkills/java.png';
 import react from '../../assets/ProgrammingSkills/react.png';
+import next from '../../assets/ProgrammingSkills/nextjs.png';
 import express from '../../assets/ProgrammingSkills/express-js.png';
 import ts from '../../assets/ProgrammingSkills/typescript.png';
 import mdb from '../../assets/ProgrammingSkills/mongodb.png';
@@ -17,6 +18,7 @@ const images = [
     { key: 1, src: css },
     { key: 2, src: js },
     { key: 3, src: react },
+    { key: 13, src: next },
     { key: 4, src: ts },
     { key: 5, src: java },
     { key: 6, src: express },

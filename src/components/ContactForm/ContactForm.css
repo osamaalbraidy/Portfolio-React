@@ -29,6 +29,7 @@
     padding: 15px 35px;
     border-radius: 30px;
     font-size: 19px;
+    margin-bottom: 20px;
 }
 
 .contact-mf button:hover {
@@ -44,4 +45,20 @@
     100% {
         transform: rotate(360deg);
     }
+}
+
+.isSent{
+    border-radius: 30px;
+    color: var(--main-white);
+    padding: 20px;
+    font-size: larger;
+    text-align: center;
+}
+
+.success{
+    background-color: var(--main-color);
+}
+
+.failed{
+    background-color: red;
 }
