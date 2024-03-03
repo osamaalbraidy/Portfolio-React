@@ -48,7 +48,7 @@ const ContactForm = () => {
                 dispatch({ type: 'input', field: 'name', value: '' });
                 dispatch({ type: 'input', field: 'email', value: '' });
                 dispatch({ type: 'input', field: 'subject', value: '' });
-                dispatch({ type: 'input', field: 'message', value: '' });
+                dispatch({ type: 'input', field: 'message', value: '' }); 
             }, (error) => {
                 console.log(error.text);
                 setIsSent(false);
