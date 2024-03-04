@@ -36,7 +36,7 @@ const CounterSection = () => {
                                 </div>
                             </div>
                             <div className="counter-num">
-                                <CountUp start={0} end={countersInView ? 11 : 0} duration={2} className="counter purecounter" />
+                                <CountUp start={0} end={countersInView ? 12 : 0} duration={2} className="counter purecounter" />
                                 <p className="counter-text">WORKS COMPLETED</p>
                             </div>
                         </div>

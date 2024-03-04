@@ -48,7 +48,6 @@
 }
 
 .isSent{
-    border-radius: 30px;
     color: var(--main-white);
     padding: 20px;
     font-size: larger;
@@ -56,9 +55,9 @@
 }
 
 .success{
-    background-color: var(--main-color);
+    color: var(--main-color);
 }
 
 .failed{
-    background-color: red;
+    color: red;
 }
