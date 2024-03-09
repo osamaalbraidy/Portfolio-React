@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.7c380b08.css",
-    "main.js": "/Portfolio-React/static/js/main.68c3b130.js",
+    "main.css": "/Portfolio-React/static/css/main.7ebef74b.css",
+    "main.js": "/Portfolio-React/static/js/main.927bc71f.js",
     "static/media/YellowMoon.png": "/Portfolio-React/static/media/YellowMoon.0e75f11e763e688a669e.png",
     "static/media/Modus.png": "/Portfolio-React/static/media/Modus.48ce5906314d227fd528.png",
     "static/media/portfolio.png": "/Portfolio-React/static/media/portfolio.8b877aa6968e19f1c8c8.png",
@@ -35,11 +35,11 @@
     "static/media/envelope.svg": "/Portfolio-React/static/media/envelope.ceed57e9483391a79813f313693eb103.svg",
     "static/media/check-lg.svg": "/Portfolio-React/static/media/check-lg.6fe048a4880199518d7f8eb12152ed04.svg",
     "static/media/phone.svg": "/Portfolio-React/static/media/phone.3b280b33e14c15bb95d3726e27b9cddf.svg",
-    "main.7c380b08.css.map": "/Portfolio-React/static/css/main.7c380b08.css.map",
-    "main.68c3b130.js.map": "/Portfolio-React/static/js/main.68c3b130.js.map"
+    "main.7ebef74b.css.map": "/Portfolio-React/static/css/main.7ebef74b.css.map",
+    "main.927bc71f.js.map": "/Portfolio-React/static/js/main.927bc71f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c380b08.css",
-    "static/js/main.68c3b130.js"
+    "static/css/main.7ebef74b.css",
+    "static/js/main.927bc71f.js"
   ]
 }
