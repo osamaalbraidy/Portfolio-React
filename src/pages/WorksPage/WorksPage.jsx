@@ -1,6 +1,5 @@
-import './Work.css'
+import '../../components/Work/Work.css'
 import { WorkItem } from '../../components';
-import { Link as Link2 } from 'react-router-dom';
 import WorkData from '../../Data/WorksData'
 
 const PortfolioSection = () => {
@@ -19,18 +18,15 @@ const PortfolioSection = () => {
                 </div>
                 <div className="row">
                     {portfolioItems.map((item, index) => (
-                        item.main?(<WorkItem
+                        <WorkItem
                             key={index}
                             title={item.title}
                             imgSrc={item.imgSrc}
                             link={item.link}
                             category={item.category}
                             date={item.date}
-                        />):(<></>)
+                        />
                     ))}
-                </div>
-                <div className='row'>
-                <Link2 to="Works"><h3 className='ViewMore'>View More Works {'=>'}</h3></Link2>
                 </div>
             </div>
         </section>
