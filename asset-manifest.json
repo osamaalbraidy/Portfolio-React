@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.7ebef74b.css",
-    "main.js": "/Portfolio-React/static/js/main.fda8c2be.js",
+    "main.js": "/Portfolio-React/static/js/main.c7762fcd.js",
     "static/media/YellowMoon.png": "/Portfolio-React/static/media/YellowMoon.0e75f11e763e688a669e.png",
     "static/media/Modus.png": "/Portfolio-React/static/media/Modus.48ce5906314d227fd528.png",
     "static/media/portfolio.png": "/Portfolio-React/static/media/portfolio.8b877aa6968e19f1c8c8.png",
@@ -26,6 +26,7 @@
     "static/media/css-3.png": "/Portfolio-React/static/media/css-3.463e319bad8e0edf1ef7.png",
     "static/media/Csharp.png": "/Portfolio-React/static/media/Csharp.442ca0b9d036bf074f8f.png",
     "static/media/C.png": "/Portfolio-React/static/media/C.efa542f5758aecfd96dd.png",
+    "static/media/redux-icon.webp": "/Portfolio-React/static/media/redux-icon.ece8a76b1318995a873b.webp",
     "static/media/binoculars.svg": "/Portfolio-React/static/media/binoculars.9adca3121aae1467209b9555919017ec.svg",
     "index.html": "/Portfolio-React/index.html",
     "static/media/journal-richtext.svg": "/Portfolio-React/static/media/journal-richtext.49f3394acdb1b938cba542cfcabca9a0.svg",
@@ -36,10 +37,10 @@
     "static/media/check-lg.svg": "/Portfolio-React/static/media/check-lg.6fe048a4880199518d7f8eb12152ed04.svg",
     "static/media/phone.svg": "/Portfolio-React/static/media/phone.3b280b33e14c15bb95d3726e27b9cddf.svg",
     "main.7ebef74b.css.map": "/Portfolio-React/static/css/main.7ebef74b.css.map",
-    "main.fda8c2be.js.map": "/Portfolio-React/static/js/main.fda8c2be.js.map"
+    "main.c7762fcd.js.map": "/Portfolio-React/static/js/main.c7762fcd.js.map"
   },
   "entrypoints": [
     "static/css/main.7ebef74b.css",
-    "static/js/main.fda8c2be.js"
+    "static/js/main.c7762fcd.js"
   ]
 }
