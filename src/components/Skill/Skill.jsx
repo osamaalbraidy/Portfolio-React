@@ -12,6 +12,7 @@ import flutter from '../../assets/ProgrammingSkills/flutter.png';
 import php from '../../assets/ProgrammingSkills/php.png';
 import C from '../../assets/ProgrammingSkills/C.png';
 import Cshurp from '../../assets/ProgrammingSkills/Csharp.png';
+import redux from '../../assets/ProgrammingSkills/redux-icon.webp';
 
 const images = [
     { key: 0, src: html },
@@ -28,6 +29,7 @@ const images = [
     { key: 10, src: php },
     { key: 11, src: C },
     { key: 12, src: Cshurp },
+    { key: 14, src: redux },
 ];
 
 const Skill = () => {
