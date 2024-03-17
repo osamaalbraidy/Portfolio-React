@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.7ebef74b.css",
-    "main.js": "/Portfolio-React/static/js/main.5f148efe.js",
+    "main.js": "/Portfolio-React/static/js/main.725e95da.js",
     "static/media/YellowMoon.png": "/Portfolio-React/static/media/YellowMoon.0e75f11e763e688a669e.png",
     "static/media/Modus.png": "/Portfolio-React/static/media/Modus.48ce5906314d227fd528.png",
     "static/media/portfolio.png": "/Portfolio-React/static/media/portfolio.8b877aa6968e19f1c8c8.png",
@@ -19,6 +19,7 @@
     "static/media/mongodb.png": "/Portfolio-React/static/media/mongodb.6b78f5740622d21d0b52.png",
     "static/media/react.png": "/Portfolio-React/static/media/react.809fed23bcdd686de66e.png",
     "static/media/java.png": "/Portfolio-React/static/media/java.f4ea765878d6e68edefd.png",
+    "static/media/ToDoList.png": "/Portfolio-React/static/media/ToDoList.a4396429facebd29252a.png",
     "static/media/flutter.png": "/Portfolio-React/static/media/flutter.90c3274b9ff600a6d4d9.png",
     "static/media/php.png": "/Portfolio-React/static/media/php.3fc15cf443a81ef2d0a4.png",
     "static/media/java-script.png": "/Portfolio-React/static/media/java-script.78206ba65e01c7d57080.png",
@@ -37,10 +38,10 @@
     "static/media/check-lg.svg": "/Portfolio-React/static/media/check-lg.6fe048a4880199518d7f8eb12152ed04.svg",
     "static/media/phone.svg": "/Portfolio-React/static/media/phone.3b280b33e14c15bb95d3726e27b9cddf.svg",
     "main.7ebef74b.css.map": "/Portfolio-React/static/css/main.7ebef74b.css.map",
-    "main.5f148efe.js.map": "/Portfolio-React/static/js/main.5f148efe.js.map"
+    "main.725e95da.js.map": "/Portfolio-React/static/js/main.725e95da.js.map"
   },
   "entrypoints": [
     "static/css/main.7ebef74b.css",
-    "static/js/main.5f148efe.js"
+    "static/js/main.725e95da.js"
   ]
 }
