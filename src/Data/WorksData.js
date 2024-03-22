@@ -4,9 +4,27 @@ import Modus from '../assets/Works/Modus.png'
 import Wooster from '../assets/Works/Wooster.png'
 import ITStore from '../assets/Works/ITStore.png'
 import Portfolio from '../assets/Works/portfolio.png'
+import ToDoList from '../assets/Works/ToDoList.png'
+import RoseChic from '../assets/Works/Rose-Chic.png'
 const link = "https://osamaalbraidy.github.io/";
 
 const portfolioItems = [
+    {
+        title: 'Rose Chic',
+        imgSrc: RoseChic,
+        link: `${link}Rose-Chic/`,
+        category: 'Web Design',
+        date: 'March 2024',
+        main: true,
+    },
+    {
+        title: 'ToDoList',
+        imgSrc: ToDoList,
+        link: `${link}ToDoList/`,
+        category: 'Web Design',
+        date: 'March 2024',
+        main: true,
+    },
     {
         title: 'Portfolio',
         imgSrc: Portfolio,
@@ -37,7 +55,7 @@ const portfolioItems = [
         link: `${link}HTML-CSS-JS-3/`,
         category: 'Web Design',
         date: 'February 2023',
-        main: true,
+        main: false,
     },
     {
         title: 'Yellow Moon',
@@ -45,7 +63,7 @@ const portfolioItems = [
         link: `${link}HTML-CSS-2/`,
         category: 'Web Design',
         date: 'February 2023',
-        main: true,
+        main: false,
     },
     {
         title: 'Leon',
