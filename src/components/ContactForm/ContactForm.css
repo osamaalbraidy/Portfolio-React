@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .contact-mf input,
 .contact-mf input::placeholder,
 .contact-mf input:focus,
@@ -60,4 +61,68 @@
 
 .failed{
     color: red;
+=======
+.contact-mf input,
+.contact-mf input::placeholder,
+.contact-mf input:focus,
+.contact-mf textarea,
+.contact-mf textarea::placeholder,
+.contact-mf textarea:focus {
+    background-color: var(--main-black);
+    color: var(--secondary-white);
+}
+.contact-mf input:focus,
+.contact-mf textarea:focus{
+    box-shadow: 0 0 0 1px var(--main-color);
+    border-color: var(--main-color);
+}
+.contact-mf .box-shadow-full {
+    background-color: var(--main-black);
+    color: var(--secondary-white);
+}
+
+.contact-mf .box-shadow-full .title-left {
+    color: var(--main-white);
+}
+
+.contact-mf button {
+    border: none;
+    transition: 0.8s;
+    background-color: var(--main-color);
+    color: var(--main-white);
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.contact-mf button:hover {
+    box-shadow: 0 0 0 5px #cde1f8;
+}
+
+
+@keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.isSent{
+    color: var(--main-white);
+    padding: 20px;
+    font-size: larger;
+    text-align: center;
+}
+
+.success{
+    color: var(--main-color);
+}
+
+.failed{
+    color: red;
+>>>>>>> cf26256b2b839f3b47ce55256e75d447cc374d09
 }

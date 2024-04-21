@@ -1,0 +1,13 @@
+.animated-cursor {
+    background-color: var(--main-color);
+    opacity: 0.6;
+    z-index: 100;
+    pointer-events: none;
+    border: none;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    will-change: transform;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Added box-shadow */
+}
