@@ -24,6 +24,9 @@
     "typed.js": "^2.0.16",
     "web-vitals": "^2.1.4"
   },
+  "overrides": {
+    "@svgr/webpack": "$@svgr/webpack"
+  },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
