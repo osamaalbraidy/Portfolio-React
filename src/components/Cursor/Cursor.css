@@ -9,5 +9,11 @@
     top: 0;
     left: 0;
     will-change: transform;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Added box-shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 787px) {
+    .animated-cursor{
+        display: none;
+    }
 }
