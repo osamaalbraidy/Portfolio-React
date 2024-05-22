@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.83a67417.css",
-    "main.js": "/Portfolio-React/static/js/main.da86d362.js",
+    "main.css": "/Portfolio-React/static/css/main.78ea68fa.css",
+    "main.js": "/Portfolio-React/static/js/main.9701969a.js",
     "static/media/YellowMoon.png": "/Portfolio-React/static/media/YellowMoon.0e75f11e763e688a669e.png",
     "static/media/Modus.png": "/Portfolio-React/static/media/Modus.48ce5906314d227fd528.png",
+    "static/media/Rose-Chic-Senior.png": "/Portfolio-React/static/media/Rose-Chic-Senior.56b3dd59984071443726.png",
     "static/media/Rose-Chic.png": "/Portfolio-React/static/media/Rose-Chic.e56756f2bff8314acc0a.png",
     "static/media/Netflix.png": "/Portfolio-React/static/media/Netflix.b818984c78418ce66bfb.png",
     "static/media/portfolio.png": "/Portfolio-React/static/media/portfolio.8b877aa6968e19f1c8c8.png",
@@ -17,6 +18,7 @@
     "static/media/sql.png": "/Portfolio-React/static/media/sql.167c88550478e6f0f85c.png",
     "static/media/fontawesome-webfont.eot": "/Portfolio-React/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Portfolio-React/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/Rose-Chic-Dashboard.png": "/Portfolio-React/static/media/Rose-Chic-Dashboard.85a94440236e5e3a360b.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/Portfolio-React/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Portfolio-React/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/mongodb.png": "/Portfolio-React/static/media/mongodb.6b78f5740622d21d0b52.png",
@@ -40,11 +42,11 @@
     "static/media/envelope.svg": "/Portfolio-React/static/media/envelope.ceed57e9483391a79813f313693eb103.svg",
     "static/media/check-lg.svg": "/Portfolio-React/static/media/check-lg.6fe048a4880199518d7f8eb12152ed04.svg",
     "static/media/phone.svg": "/Portfolio-React/static/media/phone.3b280b33e14c15bb95d3726e27b9cddf.svg",
-    "main.83a67417.css.map": "/Portfolio-React/static/css/main.83a67417.css.map",
-    "main.da86d362.js.map": "/Portfolio-React/static/js/main.da86d362.js.map"
+    "main.78ea68fa.css.map": "/Portfolio-React/static/css/main.78ea68fa.css.map",
+    "main.9701969a.js.map": "/Portfolio-React/static/js/main.9701969a.js.map"
   },
   "entrypoints": [
-    "static/css/main.83a67417.css",
-    "static/js/main.da86d362.js"
+    "static/css/main.78ea68fa.css",
+    "static/js/main.9701969a.js"
   ]
 }
