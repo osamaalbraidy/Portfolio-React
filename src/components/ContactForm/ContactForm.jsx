@@ -21,6 +21,7 @@ const ContactForm = () => {
 
     const [state, dispatch] = useReducer(reducer, initState);
     const [isSent, setIsSent] = useState(null);
+    const [isLoading, setIsLoading] = useState(false);
 
     const handleChange = (e) => {
         dispatch({
@@ -32,6 +33,7 @@ const ContactForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        setIsLoading(true);
 
         const templateParams = {
             to_name: 'Osama Al Braidy',
@@ -45,13 +47,15 @@ const ContactForm = () => {
             .then((result) => {
                 console.log(result.text);
                 setIsSent(true);
+                setIsLoading(false);
                 dispatch({ type: 'input', field: 'name', value: '' });
                 dispatch({ type: 'input', field: 'email', value: '' });
                 dispatch({ type: 'input', field: 'subject', value: '' });
-                dispatch({ type: 'input', field: 'message', value: '' }); 
+                dispatch({ type: 'input', field: 'message', value: '' });
             }, (error) => {
                 console.log(error.text);
                 setIsSent(false);
+                setIsLoading(false);
             });
     };
 
@@ -118,8 +122,9 @@ const ContactForm = () => {
                     <button
                         type="submit"
                         className="button-a"
+                        disabled={isLoading}
                     >
-                        Send Message
+                        {isLoading ? "Sending..." : "Send Message"} 
                     </button>
                 </div>
                 {isSent !== null && (
@@ -127,7 +132,6 @@ const ContactForm = () => {
                         {isSent ? "Your message has been sent successfully!" : "Sorry, there was an error sending your message. Please try again later."}
                     </p>
                 )}
-
             </div>
         </form>
     );
