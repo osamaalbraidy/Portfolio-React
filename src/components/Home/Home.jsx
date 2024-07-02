@@ -1,6 +1,7 @@
 import './Home.css';
 import React, { useEffect } from 'react';
 import Typed from 'typed.js';
+import cv from '../../assets/CV/Osama Al Braidy CV.pdf'
 
 const Home = () => {
 
@@ -29,7 +30,7 @@ const Home = () => {
             <p className="hero-subtitle">
               <span className="typed"></span>
             </p>
-            <a href="/CV/Osama Al Braidy CV.pdf" download className="CV">
+            <a href={cv} download className="CV">
               Download my CV
             </a>
           </div>
