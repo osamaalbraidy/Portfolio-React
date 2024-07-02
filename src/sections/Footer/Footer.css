@@ -1,4 +1,4 @@
-.footer{
+.footer {
     background-color: black;
     color: var(--main-white);
     display: flex;
@@ -6,4 +6,5 @@
     align-items: center;
     text-align: center;
     height: 80px;
+    border-top: var(--main-color) 1px solid;
 }

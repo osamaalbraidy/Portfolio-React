@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .header .navbar ul {
     display: flex;
     margin-top: 15px;
@@ -54,61 +53,4 @@
 .a{
     padding: 0px;
     margin: 0px;
-=======
-.header .navbar ul {
-    display: flex;
-    margin-top: 15px;
-}
-
-.header .navbar ul li {
-    margin-left: 10px;
-    list-style: none;
-}
-
-.header .navbar ul li a {
-    padding: 5px 10px;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    width: 60px;
-    text-transform: uppercase;
-    transition: all 0.3s ease-in-out 0s;
-}
-.header .navbar ul li .active-link{
-    color: var(--main-color);
-}
-
-
-.header .navbar a {
-    color: var(--main-color);
-    text-decoration: none;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-.header .navbar ul li a:hover {
-    color: var(--main-color);
-}
-
-.header .navbar .links li a:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    margin-top: 30px;
-    background-color: var(--main-color);
-    visibility: visible;
-    transition: all 0.3s ease-in-out 0s;
-}
-
-.header .navbar .links li a:hover:before,
-.header .navbar .links li .active-link::before{
-    visibility: visible;
-    width: 40px;
-}
-
-.a{
-    padding: 0px;
-    margin: 0px;
->>>>>>> cf26256b2b839f3b47ce55256e75d447cc374d09
 }
