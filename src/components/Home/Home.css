@@ -41,6 +41,7 @@
 .hero .hero-subtitle {
     font-size: 1.5rem;
     font-weight: 600;
+    margin-bottom: 35px;
 }
 
 @media (min-width: 768px) {
@@ -87,4 +88,21 @@
 
 .hero-single .breadcrumb a {
     color: #fff;
+}
+
+.hero .CV {
+    padding: 10px 15px;
+    border-radius: 0;
+    background-color: var(--main-color);
+    color: var(--main-white);
+    border: none;
+    transition: 0.5s;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.hero .CV:hover {
+    background-color: var(--secondary-black);
+    color: var(--main-color);
 }

@@ -29,6 +29,9 @@ const Home = () => {
             <p className="hero-subtitle">
               <span className="typed"></span>
             </p>
+            <a href="/CV/Osama Al Braidy CV.pdf" download className="CV">
+              Download my CV
+            </a>
           </div>
         </div>
       </div>
