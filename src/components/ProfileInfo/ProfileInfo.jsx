@@ -1,6 +1,6 @@
 import './ProfileInfo.css'
 import AboutInfo from '../AboutInfo/AboutInfo';
-import osamaAlBraidyImage from '../../assets/OsamaAlBraidy.jpg'
+import osamaAlBraidyImage from '../../assets/OsamaAlBraidy.png'
 
 const ProfileInfo = () => {
     return (
