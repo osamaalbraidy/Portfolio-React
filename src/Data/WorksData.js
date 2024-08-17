@@ -20,7 +20,7 @@ const portfolioItems = [
     {
         title: 'Rose-Chic Senior',
         imgSrc: RoseChicDashboard,
-        link: `/Portfolio-React`,
+        link: `https://www.linkedin.com/posts/osama-al-braidy-99b4b8274_seniorproject-webdevelopment-ecommerce-activity-7230570251787128832-6y_9?utm_source=share&utm_medium=member_desktop`,
         category: 'Web Design',
         date: 'May 2024',
         main: true,
@@ -28,7 +28,7 @@ const portfolioItems = [
     {
         title: 'Rose-Chic Senior',
         imgSrc: RoseChicSenior,
-        link: `/Portfolio-React`,
+        link: `https://www.linkedin.com/posts/osama-al-braidy-99b4b8274_seniorproject-webdevelopment-ecommerce-activity-7230570251787128832-6y_9?utm_source=share&utm_medium=member_desktop`,
         category: 'Web Design',
         date: 'May 2024',
         main: true,
