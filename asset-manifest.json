@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.24cfddd6.css",
-    "main.js": "/Portfolio-React/static/js/main.a729e9ae.js",
+    "main.js": "/Portfolio-React/static/js/main.fcba2ab1.js",
     "static/media/YellowMoon.png": "/Portfolio-React/static/media/YellowMoon.0e75f11e763e688a669e.png",
     "static/media/Modus.png": "/Portfolio-React/static/media/Modus.48ce5906314d227fd528.png",
     "static/media/Rose-Chic-Senior.png": "/Portfolio-React/static/media/Rose-Chic-Senior.56b3dd59984071443726.png",
@@ -14,7 +14,7 @@
     "static/media/Leon.png": "/Portfolio-React/static/media/Leon.691cdd987faad041df48.png",
     "static/media/ITStore.png": "/Portfolio-React/static/media/ITStore.97f5178d79cd0664f9b7.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Portfolio-React/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/Osama Al Braidy CV.pdf": "/Portfolio-React/static/media/Osama Al Braidy CV.9e51257761ed4b4c5c0a.pdf",
+    "static/media/Osama Al Braidy CV.pdf": "/Portfolio-React/static/media/Osama Al Braidy CV.4407a9f39dc2e32b1a08.pdf",
     "static/media/OsamaAlBraidy.png": "/Portfolio-React/static/media/OsamaAlBraidy.87d0aa8501b3625ca795.png",
     "static/media/sql.png": "/Portfolio-React/static/media/sql.167c88550478e6f0f85c.png",
     "static/media/fontawesome-webfont.eot": "/Portfolio-React/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -44,10 +44,10 @@
     "static/media/check-lg.svg": "/Portfolio-React/static/media/check-lg.6fe048a4880199518d7f8eb12152ed04.svg",
     "static/media/phone.svg": "/Portfolio-React/static/media/phone.3b280b33e14c15bb95d3726e27b9cddf.svg",
     "main.24cfddd6.css.map": "/Portfolio-React/static/css/main.24cfddd6.css.map",
-    "main.a729e9ae.js.map": "/Portfolio-React/static/js/main.a729e9ae.js.map"
+    "main.fcba2ab1.js.map": "/Portfolio-React/static/js/main.fcba2ab1.js.map"
   },
   "entrypoints": [
     "static/css/main.24cfddd6.css",
-    "static/js/main.a729e9ae.js"
+    "static/js/main.fcba2ab1.js"
   ]
 }
