@@ -30,7 +30,7 @@ const Home = () => {
             <p className="hero-subtitle">
               <span className="typed"></span>
             </p>
-            <a href={cv} download className="CV">
+            <a href={cv} download={'Osama Al Braidy CV'} className="CV">
               Download my CV
             </a>
           </div>

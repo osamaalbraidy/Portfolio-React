@@ -15,12 +15,14 @@ import Cshurp from '../../assets/ProgrammingSkills/Csharp.png';
 import redux from '../../assets/ProgrammingSkills/redux-icon.webp';
 import tailwind from '../../assets/ProgrammingSkills/tailwind.png';
 import laravel from '../../assets/ProgrammingSkills/laravel.png';
+import dotNet from '../../assets/ProgrammingSkills/NET_Core.png';
 
 const images = [
     { key: 0, src: html },
     { key: 1, src: css },
     { key: 2, src: js },
     { key: 3, src: react },
+    { key: 17, src: dotNet },
     { key: 13, src: next },
     { key: 4, src: ts },
     { key: 5, src: java },

@@ -1,0 +1,30 @@
+.Profile-Info {
+    display: flex;
+}
+
+.about-img img {
+    width: 150px;
+    height: 150px;
+}
+
+.about-img {
+    margin-right: 10px;
+}
+
+@media (max-width: 473px) {
+    .Profile-Info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-img img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-img {
+        margin-right: 0px;
+    }
+}
